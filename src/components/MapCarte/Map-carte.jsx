@@ -3,19 +3,19 @@ import Carte from "../Carte/Carte.jsx";
 const MapCarte = () => {
   const tableauPersons = [
     {
-      src : "AIZEN&KISUKE.png" , 
-      nom : "INTELLIGENCE" , 
-      santeValue: 750 ,
-      attaqueValue: 30 ,
-      magieValue: 999
+      image : "AIZEN&KISUKE.png" , 
+      name : "INTELLIGENCE" , 
+      health: 750 ,
+      power: 30 ,
+      magic: 999
       
     } , 
     {
-      src : "Big3Nindo.png" , 
-      nom : "NINDO" , 
-      santeValue: 400 ,
-      attaqueValue: 690 ,
-      magieValue: 295
+      image : "Big3Nindo.png" , 
+      name : "NINDO" , 
+      health: 400 ,
+      power: 690 ,
+      magic: 295
     } , 
     ]
     
